@@ -1,0 +1,10 @@
+<h1>EDIT</h1>
+<div style="display:flex">
+
+    <form action="">
+        name:  <input type="text" name="name" [(ngModel)]='newContact.name'> 
+        phone:  <input type="text" name="phone" [(ngModel)]='newContact.phone'>
+        email: <input type="text" name="email" [(ngModel)]='newContact.email'>
+    </form>
+    <button (click)='onSubmit()'>submit</button>
+</div>
